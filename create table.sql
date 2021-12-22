@@ -1,0 +1,33 @@
+create table friends ( id interger, name text, birthday date);
+insert into friends (id,name, birthday) values(1," Ororo Munroe", 1940-05-30);
+select * from friends;
+insert into friends (id,name, birthday) values(2," hhfakfa Munroe", 1950-10-20);
+insert into friends (id,name, birthday) values(3," hhfakfa Munjgjjkroe", 1930-10-20);
+select * from friends;
+update friends set name = "Storm" where id = 1;
+select * from friends;
+alter table friends add column email text;
+select * from friends;
+update friends set email = "storm@codecademy.com" where id = 1;
+update friends set email = "storm@codecadelfslek;kmy.com" where id = 2;
+update friends set email = "storm@codecklk;llladelfslek;kmy.com" where id = 3;
+select * from friends;
+DELETE FROM friends
+WHERE id = 1;
+select * from friends;create table friends ( id interger, name text, birthday date);
+insert into friends (id,name, birthday) values(1," Ororo Munroe", 1940-05-30);
+select * from friends;
+insert into friends (id,name, birthday) values(2," hhfakfa Munroe", 1950-10-20);
+insert into friends (id,name, birthday) values(3," hhfakfa Munjgjjkroe", 1930-10-20);
+select * from friends;
+update friends set name = "Storm" where id = 1;
+select * from friends;
+alter table friends add column email text;
+select * from friends;
+update friends set email = "storm@codecademy.com" where id = 1;
+update friends set email = "storm@codecadelfslek;kmy.com" where id = 2;
+update friends set email = "storm@codecklk;llladelfslek;kmy.com" where id = 3;
+select * from friends;
+DELETE FROM friends
+WHERE id = 1;
+select * from friends;
